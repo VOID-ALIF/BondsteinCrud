@@ -19,8 +19,8 @@ A CRUD application built with Laravel, using Laragon as the development environm
 - **Generated Routes:** Inside the `crud-package` of the `BondsteinCrud` Laravel project (`crud-routes.php`, `routes.php`)
 
 ## Getting Started
-## !!!! Important
-## Download all the files and folders by zipping it and extract the (.zip) file in BondsteinCrud folder 
+## !!!!! Important !!!!!
+## Download all the files and folders by zipping it and extract the (.zip) file in "BondsteinCrud" folder 
 1. Serve the website using the following command in the terminal:
 
     ```bash
