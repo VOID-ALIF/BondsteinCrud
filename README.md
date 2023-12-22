@@ -29,6 +29,8 @@ A CRUD application built with Laravel, using Laragon as the development environm
     ```
     
 2. Visit [http://127.0.0.1:8000/products](http://127.0.0.1:8000/products) to view the CRUD operations in the products page. You can create new products, show, edit, and delete.
+3. ## Result Image
+![Result Image](CRUD.png)
 
 ## Comments
 
