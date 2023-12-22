@@ -30,3 +30,4 @@
      php artisan vendor:publish --all
 
 # Thank you, Please get in touch if you want or need more about the project.
+# Contact Info: alif.rahman.c@gmail.com
