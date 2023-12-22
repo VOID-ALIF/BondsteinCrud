@@ -1,12 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
+# Laravel CRUD Application
 
 ![Laravel Logo](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)
 
@@ -15,41 +7,49 @@
 [![Latest Stable Version](https://img.shields.io/packagist/v/laravel/framework)](https://packagist.org/packages/laravel/framework)
 [![License](https://img.shields.io/packagist/l/laravel/framework)](https://opensource.org/licenses/MIT)
 
-## Laravel CRUD Application [This is a basic structure to complete a task]
-## [Time spent 3.5 hours]
+A CRUD application built with Laravel, using Laragon as the development environment.
 
-## A CRUD application made using laravel
-## Using Laragon which is one of the best development environments available for laravel.
+## Features
 
-## - Generated View Files: Create, Edit, Index, Show, etc.
-## - Generated controller: "ProductController.php"
-## - Generated model: "Product" 
-## - Generated validation files: form validation in controller methods
-## - Generated Migration Files: includes migrations for the "products" table
-## - Generated routes: inside the crud-package of BondsteinCrud laravel project created- crud-routes.php, routes.php
+- **Generated View Files:** Includes files for Create, Edit, Index, Show, etc.
+- **Generated Controller:** `ProductController.php`
+- **Generated Model:** `Product`
+- **Generated Validation Files:** Form validation in controller methods
+- **Generated Migration Files:** Includes migrations for the "products" table
+- **Generated Routes:** Inside the `crud-package` of the `BondsteinCrud` Laravel project (`crud-routes.php`, `routes.php`)
 
-## Serve the website in the command using cmd/cmder scripts. 
-    1. cd BondsteinCrud
-    2. php artisan serve
+## Getting Started
+## !!!! Important
+## Download all the files and folders by zipping it and extract the (.zip) file in BondsteinCrud folder 
+1. Serve the website using the following command in the terminal:
+
+    ```bash
+    cd BondsteinCrud
+    php artisan serve
+    ```
     
-## Please visit this link after serving the laravel website: (http://127.0.0.1:8000/products) to view the Crud operations in the products page.
-## You can create new products, show, edit, delete.
+2. Visit [http://127.0.0.1:8000/products](http://127.0.0.1:8000/products) to view the CRUD operations in the products page. You can create new products, show, edit, and delete.
 
-## Ihave commented this line in the CrudGeneratorServiceProvider.php to load routes from a single file. [Can't load multiple routes]
-      public function boot()
-      {
-          // $this->loadRoutesFrom(__DIR__.'/routes.php');
-  
-       }
+## Comments
+
+- A line in `CrudGeneratorServiceProvider.php` has been commented out to load routes from a single file as Laravel cannot load multiple routes.
+
+  ```php
+  public function boot()
+  {
+      // $this->loadRoutesFrom(__DIR__.'/routes.php');
+  }
        
-## NB: please run the below command for the routes to be automatically appended to the laravel projects 'web.php' file when you boot the laravel application.
-     php artisan vendor:publish --tag=config 
-## if above doesnt work
+## Note
+Run the following command for the routes to be automatically appended to the Laravel project's web.php file when you boot the Laravel application:
+     
+     php artisan vendor:publish --tag=config
+If the above doesn't work, you can try:
+
      php artisan vendor:publish --all
 
-## Thank you, Please get in touch if you want or need more about the project.
-## Contact Info: 
-To contact: [alif.rahman.c@gmail.com](mailto:alif.rahman.c@gmail.com)
+## Contact Information
+To get in touch: [alif.rahman.c@gmail.com](mailto:alif.rahman.c@gmail.com)
 
 ## Code of Conduct
 
