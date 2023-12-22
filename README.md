@@ -13,12 +13,12 @@
 ## A CRUD application made using laravel
 ## Using Laragon which is one of the best development environments available for laravel.
 
-## Generated View Files: Create, Edit, Index, Show, etc.
-## Generated controller: "ProductController.php"
-## Generated model: "Product" 
-## Generated validation files: form validation in controller methods
-## Generated Migration Files: includes migrations for the "products" table
-## Generated routes: inside the crud-package of BondsteinCrud laravel project created- crud-routes.php, routes.php
+## - Generated View Files: Create, Edit, Index, Show, etc.
+## - Generated controller: "ProductController.php"
+## - Generated model: "Product" 
+## - Generated validation files: form validation in controller methods
+## - Generated Migration Files: includes migrations for the "products" table
+## - Generated routes: inside the crud-package of BondsteinCrud laravel project created- crud-routes.php, routes.php
 
 ## Serve the website in the command using cmd/cmder scripts. 
     1. cd BondsteinCrud
@@ -39,9 +39,9 @@
 ## if above doesnt work
      php artisan vendor:publish --all
 
-# Thank you, Please get in touch if you want or need more about the project.
+## Thank you, Please get in touch if you want or need more about the project.
 ## Contact Info: 
-To get in touch: [alif.rahman.c@gmail.com](mailto:alif.rahman.c@gmail.com)
+To contact: [alif.rahman.c@gmail.com](mailto:alif.rahman.c@gmail.com)
 
 ## Code of Conduct
 
